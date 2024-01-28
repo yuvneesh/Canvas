@@ -5,7 +5,7 @@ import os
 load_dotenv()
 canvas_token = os.getenv('CANVAS_TOKEN')
 
-url = 'https://q.utoronto.ca/api/v1/courses'
+url = 'https://q.utoronto.ca/api/v1/courses?per_page=100'
 
 # Set up the headers
 headers = {
