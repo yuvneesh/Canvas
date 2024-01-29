@@ -1,0 +1,5 @@
+{
+  "list_courses" : "https://q.utoronto.ca/api/v1/courses?per_page=100",
+  "list_modules" : "https://q.utoronto.ca/api/v1/courses/{course_id}/modules",
+  "list_assignments": "https://q.utoronto.ca/api/v1/courses/{course_id}/assignments"
+}
